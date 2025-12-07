@@ -1,4 +1,4 @@
-from langgraph import StateGraph, END
+from langgraph.graph import StateGraph, END
 from agent.nodes import (
     query_generator, safety_check,
     execute_node, summary_node

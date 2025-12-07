@@ -4,7 +4,7 @@ from agent.safety import is_safe
 from agent.tools import run_query
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-1.5-pro",
+    model="gemini-2.5-flash",
     temperature=0
 )
 

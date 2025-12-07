@@ -1,3 +1,4 @@
+from sqlalchemy import inspect
 from db.connection import execute_sql, engine
 
 def get_schema():
